@@ -1,0 +1,7 @@
+{
+    "input_dir": "data/Generated_MEL/enumerated_MEL",
+    "output_dir": "data/Test_Input/processed_enumerated_MEL",
+    "chunk_size": 40000,
+    "mel_types": ["3_component", "2_component", "bridge"]
+  }
+  

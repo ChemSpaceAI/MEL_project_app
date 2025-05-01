@@ -1,0 +1,16 @@
+{    
+    "reactions_file_path": "data/REACTION_file_for_MEL.tsv",
+    "syntons_folder_path": "data/SYNTHONS_by_reaction_id_modified_for_MEL",
+    "minimal_caps_folder_path": "data/Minimal_Caps_by_reaction_id_for_enumeration_MEL",
+
+    "filter_config_file_path": "configs/Filter_Config.json",
+
+    "output_folder_path": "data/Test_Output/bridge_iter_1_small",
+    "path_to_sdf_to_process": "data/Test_Input/bridge_iter_1.sdf",
+
+    "mel_type": "bridge",
+    "iteration_level": 1,
+
+    "N_cores":30,
+    "N_compounds_to_Enumerate": 300000
+}

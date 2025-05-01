@@ -1,0 +1,16 @@
+{    
+    "reactions_file_path": "data/REACTION_file_for_MEL.tsv",
+    "syntons_folder_path": "data/SYNTHONS_by_reaction_id_modified_for_MEL",
+    "minimal_caps_folder_path": "data/Minimal_Caps_by_reaction_id_for_enumeration_MEL",
+
+    "filter_config_file_path": "configs/Filter_Config.json",
+
+    "output_folder_path": "data/Test_Output/2_comp",
+    "path_to_sdf_to_process": "data/Test_Input/2_comp.sdf",
+
+    "mel_type": "2_component",
+    "iteration_level": 1,
+
+    "N_cores":50,
+    "N_compounds_to_Enumerate": 5000000
+}
