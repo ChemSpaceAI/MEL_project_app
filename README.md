@@ -90,11 +90,19 @@ Fully enumerates final molecules from MEL structures.
 
 
 ### Comments 
-mel_type can be : "2_component", "3_component", "bridge"
-iteration_level: 1, 2
-sdf to proces sshoud have mel_synthon_id column
 
-if not filter ocnfig type false
+mel_type: Type of MEL structure. Possible values:
+  - "2_component"
+  - "3_component"
+  - "bridge"
+
+iteration_level: Enumeration depth. Possible values:
+  - 1 or 2
+
+path_to_sdf_to_process: The input SDF must contain a mel_synthon_id column.
+
+filter_config_file_path: If set to a valid config file, filtering will be applied.
+                         If set to false, filtering is skipped.
 
 ### 🧾 JSON Config Example (Config_For_Enumeration.json)
 ```json
