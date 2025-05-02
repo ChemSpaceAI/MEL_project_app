@@ -12,5 +12,5 @@
     "iteration_level": 1,
 
     "N_cores":50,
-    "N_compounds_to_Enumerate": 200000
+    "N_compounds_to_Enumerate": 500000
 }

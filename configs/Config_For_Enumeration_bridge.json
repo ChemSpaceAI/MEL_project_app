@@ -11,6 +11,6 @@
     "mel_type": "bridge",
     "iteration_level": 1,
 
-    "N_cores":30,
-    "N_compounds_to_Enumerate": 300000
+    "N_cores":50,
+    "N_compounds_to_Enumerate": 5000000
 }

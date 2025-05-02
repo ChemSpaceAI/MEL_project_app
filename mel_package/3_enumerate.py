@@ -75,7 +75,7 @@ def main(config: dict) -> None:
     try:
         sdf_file = config['path_to_sdf_to_process']
         input_synthons = PandasTools.LoadSDF(sdf_file, embedProps=True)
-        input_synthons = input_synthons.sample(1) #for testing
+        #input_synthons = input_synthons.sample(1) #for testing
         if 'mel_synthon_id' not in input_synthons.columns:
             raise ValueError("SDF must contain 'mel_synthon_id' column.")
 

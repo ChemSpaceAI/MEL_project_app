@@ -92,6 +92,9 @@ Fully enumerates final molecules from MEL structures.
 ### Comments 
 mel_type can be : "2_component", "3_component", "bridge"
 iteration_level: 1, 2
+sdf to proces sshoud have mel_synthon_id column
+
+if not filter ocnfig type false
 
 ### 🧾 JSON Config Example (Config_For_Enumeration.json)
 ```json

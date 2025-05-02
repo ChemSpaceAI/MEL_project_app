@@ -11,6 +11,6 @@
     "mel_type":"3_component",
     "iteration_level": 1,
 
-    "N_cores":40,
-    "N_compounds_to_Enumerate": 5000000
+    "N_cores":50,
+    "N_compounds_to_Enumerate": 500000
 }
